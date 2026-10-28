@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  /> /> />
+  <link rel="stylesheet" href="1.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      font-family: "Anybody", sans-serif;
+    }
+    #page {
+      width: 1120px;
+      margin: 0 auto;
+      background-color: #0e0e18;
+    }
+    body {
+      background-color: black;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0%;
+      padding: 0%;
+    }
+    .Thetitle {
+      font-size: 70px;
+      font-weight: bold;
+    }
+    #nav {
+      background-color: #0e0e18;
+      width: 100%;
+      border-bottom: solid;
+      border-color: #161928;
+      border-width: 2px;
+      display: flex;
+      justify-content: space-between;
+      height: 100px;
+      align-items: center;
+    }
+
+    #hero-section {
+      width: 100%;
+      height: 820px;
+      display: flex;
+      justify-content: space-around;
+      padding-top: 120px;
+    }
+    #hero-section2 {
+      width: 100%;
+      height: 900px;
+      color: white;
+    }
+    #hero-section3 {
+      width: 100%;
+      height: 550px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+    #schedule {
+      width: 100%;
+      height: 100px;
+      display: flex;
+    }
+    #schedule2 {
+      width: 100%;
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding-left: 10px;
+    }
+    .huvaari {
+      width: 95%;
+      height: 100px;
+      background-color: #1b2431;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .clock {
+      padding-left: 30px;
+    }
+    #tsag1 {
+      color: #ddb7ff;
+    }
+    #tsag2 {
+      color: #ffb0cd;
+    }
+    #tsag3 {
+      color: #adc6ff;
+    }
+    .bairlal {
+      height: 100px;
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .jijig {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+    .huvaari img {
+      height: 15px;
+      width: 15px;
+    }
+    .nova {
+      color: white;
+    }
+    .loca {
+      color: white;
+    }
+    .mainstage {
+      background-color: #353542;
+      height: 30px;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 30px;
+    }
+    .ms {
+      color: white;
+    }
+    #hero-section4 {
+      width: 100%;
+      height: 600px;
+      border-bottom: solid;
+      border-color: #161928;
+      border-width: 2px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    #OS {
+      width: 100%;
+      height: 70px;
+      display: flex;
+      gap: 260px;
+      align-items: center;
+    }
+    #os {
+      padding-left: 10px;
+    }
+    #lastbox {
+      width: 100%;
+      display: flex;
+      gap: 70px;
+    }
+    #sponsors {
+      width: 45%;
+      height: 250px;
+      border-radius: 30px;
+      background-color: #161928;
+    }
+    #ehnital {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    #hoyrdahtal {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .Boxnud {
+      width: 40%;
+      height: 70%;
+      background-color: #1b2431;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .Boxnud img {
+      height: 25px;
+      width: 25px;
+    }
+    .harmonyfinancial {
+      color: white;
+      font-size: 13px;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-weight: bold;
+    }
+    #partners {
+      width: 45%;
+      height: 300px;
+      border-radius: 30px;
+      background-color: #161928;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+      justify-content: center;
+    }
+    .Boxnuud {
+      width: 90%;
+      height: 23%;
+      background-color: #1b2431;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      padding-left: 30px;
+      gap: 20px;
+    }
+    .Boxnuud img {
+      width: 25px;
+      height: 25px;
+    }
+    #fs {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+    }
+    #days {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      padding-left: 273px;
+      padding-top: 22px;
+      gap: 10px;
+    }
+    .buttonf:hover {
+      background-color: #353542;
+      transition: 0.3s;
+      color: #e99bdd;
+    }
+    .buttonf {
+      color: white;
+      height: 30px;
+      width: 70px;
+      background-color: black;
+      border-style: solid;
+      border-width: 1px;
+      border-color: grey;
+      border-radius: 20px;
+    }
+    #meet {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    #zuragnuud {
+      width: 100%;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
+    .dotorh {
+      height: 40%;
+      width: 100%;
+      padding-left: 20px;
+    }
+    #duuchin {
+      background-image: url(singa.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 320px;
+      width: 320px;
+      border-radius: 10%;
+      display: flex;
+      align-items: end;
+    }
+    #dj {
+      background-image: url(dj.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 320px;
+      width: 320px;
+      border-radius: 10%;
+      display: flex;
+      align-items: end;
+    }
+    #hamtlag {
+      background-image: url(band.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 320px;
+      width: 320px;
+      border-radius: 10%;
+      display: flex;
+      align-items: end;
+    }
+    .head {
+      color: white;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    .buttons:hover {
+      box-shadow: 0px 0px 30px #e99bdd;
+      transition: 0.2s;
+    }
+    .buttons {
+      background-color: #e0b0ff;
+      color: #4b147c;
+      border-radius: 50px;
+      height: 40px;
+      width: 160px;
+      font-weight: bold;
+    }
+    #lineups :hover {
+      text-decoration: underline;
+      transition: 0.3ms;
+      color: #e99bdd;
+    }
+    #lineups {
+      gap: 100px;
+      color: white;
+      display: flex;
+      gap: 10px;
+    }
+    #second {
+      box-shadow: 0px 0px 10px white;
+      background-image: url(concert.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 550px;
+      width: 550px;
+      border-radius: 10%;
+    }
+
+    #first {
+      width: 400px;
+      height: 550px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    #tom {
+      display: flex;
+      flex-direction: column;
+    }
+    .calendar {
+      color: #adc6ff;
+    }
+    #loc {
+      display: flex;
+      gap: 30px;
+    }
+    .tombish {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .tombish img {
+      height: 15px;
+      width: 15px;
+    }
+    .urt {
+      color: white;
+      font-size: large;
+    }
+    #desc {
+      width: 400px;
+    }
+    #buttond:hover {
+      box-shadow: 0px 0px 30px #abcdef;
+      transition: 0.2s;
+    }
+    #buttond {
+      background-color: #adc6ff;
+      height: 60px;
+      width: 300px;
+      color: #003366;
+      border-radius: 50px;
+      font-size: 28px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    #buttond img {
+      height: 15px;
+      width: 15px;
+    }
+    .meetthe {
+      color: #ddb7ff;
+      font-size: 40px;
+    }
+    .meetthe2 {
+      color: #adc6ff;
+      font-size: 40px;
+    }
+
+    #info {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+    }
+    .infonud {
+      height: 70px;
+      width: 300px;
+      background-color: #1b2431;
+      display: flex;
+      border-radius: 30px;
+    }
+
+    .icons {
+      height: 100%;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .bicig {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .icons img {
+      height: 50px;
+      width: 50px;
+    }
+    .INFOS {
+      color: white;
+      font-size: 17px;
+    }
+    .infos {
+      color: white;
+      font-size: 12px;
+    }
+    #endnav {
+      height: 70px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .neon {
+      color: white;
+    }
+    #pop {
+      background-color: #b76dff;
+      height: 30px;
+      width: 100px;
+      color: #ddb7ff;
+      font-size: 18px;
+      border-radius: 5px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      border: solid;
+      border-color: #ddb7ff;
+      border-width: 1px;
+    }
+    .novasky {
+      height: 60px;
+      width: 100%;
+      font-size: 35px;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+    .viewbio1 {
+      height: 30px;
+      width: 100%;
+      color: white;
+      font-size: 15px;
+    }
+    #edm {
+      background-color: #0566d9;
+      height: 30px;
+      width: 100px;
+      color: #adc6ff;
+      font-size: 18px;
+      border-radius: 5px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      border: solid;
+      border-color: #adc6ff;
+      border-width: 1px;
+    }
+    #indie {
+      background-color: #f751a1;
+      height: 30px;
+      width: 100px;
+      color: #ffb0cd;
+      font-size: 18px;
+      border-radius: 5px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      border: solid;
+      border-color: #ffb0cd;
+      border-width: 1px;
+    }
+  </style>
+  <body>
+    <div id="page">
+      <div id="nav">
+        <div><h1 class="head">playtime</h1></div>
+        <div id="lineups">
+          <a href="">Lineup</a>
+          <a href="">Schedule</a>
+          <a href="">Tickets</a>
+        </div>
+        <div><button class="buttons">Get Tickets</button></div>
+      </div>
+      <div id="hero-section">
+        <div id="first">
+          <div id="tom">
+            <p class="Thetitle">PLAYTIME</p>
+            <p class="Thetitle">FESTIVAL</p>
+          </div>
+          <div id="loc">
+            <div class="tombish">
+              <img src="tse.svg" alt="" />
+              <p class="calendar">JULY 15-17, 2024</p>
+            </div>
+            <div class="tombish">
+              <img src="tsen.svg" alt="" />
+              <p class="calendar">NEON CITY PARK</p>
+            </div>
+          </div>
+          <div id="desc">
+            <p class="urt">
+              The ultimate summer music experience for the next generation.
+              Three days of non-stop beats, vibrant lights, and unforgettable
+              memories.
+            </p>
+          </div>
+          <div>
+            <button id="buttond">
+              <p>Join the Beat</p>
+              <img src="sum.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div id="second"></div>
+      </div>
+      <div id="hero-section2">
+        <div id="meet">
+          <h1 class="meetthe">MEET THE HEADLINERS</h1>
+          <p class="urt">
+            The biggest acts lightning up the main stage this summer
+          </p>
+        </div>
+        <div id="zuragnuud">
+          <div id="duuchin">
+            <div class="dotorh">
+              <div id="pop">Pop/Synth</div>
+              <div class="novasky">Nova Sky</div>
+              <div class="viewbio1">VIEW BIO</div>
+            </div>
+          </div>
+          <div id="dj">
+            <div class="dotorh">
+              <div id="edm">EDM/House</div>
+              <div class="novasky">DJ Pulse</div>
+              <div class="viewbio1">VIEW BIO</div>
+            </div>
+          </div>
+          <div id="hamtlag">
+            <div class="dotorh">
+              <div id="indie">Indie Rock</div>
+              <div class="novasky">The Echoes</div>
+              <div class="viewbio1">VIEW BIO</div>
+            </div>
+          </div>
+        </div>
+        <div id="info">
+          <div class="infonud">
+            <div class="icons"><img src="calendarr.png" alt="" /></div>
+            <div class="bicig">
+              <p class="infos">DATE</p>
+              <h2 class="INFOS">July 15-17</h2>
+            </div>
+          </div>
+
+          <div class="infonud">
+            <div class="icons"><img src="location8.png" alt="" /></div>
+            <div class="bicig">
+              <p class="infos">LOCATION</p>
+              <h2 class="INFOS">Neon City</h2>
+            </div>
+          </div>
+
+          <div class="infonud">
+            <div class="icons"><img src="mungu.png" alt="" /></div>
+            <div class="bicig">
+              <p class="infos">PRICE</p>
+              <h2 class="INFOS">$99 (3-Day Pass)</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="hero-section3">
+        <div id="schedule">
+          <div id="fs"><h1 class="meetthe2">FESTIVAL SCHEDULE</h1></div>
+          <div id="days">
+            <div><button class="buttonf">Day 1</button></div>
+            <div><button class="buttonf">Day 2</button></div>
+            <div><button class="buttonf">Day 3</button></div>
+          </div>
+        </div>
+        <div id="schedule2">
+          <div class="huvaari">
+            <div class="clock"><h2 id="tsag1">2:00 PM</h2></div>
+            <div class="bairlal">
+              <h1 class="nova">Nova Sky</h1>
+              <div class="jijig">
+                <img src="jijig.svg" alt="" />
+                <p class="loca">Main Stage</p>
+              </div>
+            </div>
+            <div class="mainstage">
+              <p class="ms">Main Stage</p>
+            </div>
+          </div>
+          <div class="huvaari">
+            <div class="clock"><h2 id="tsag2">5:00 PM</h2></div>
+            <div class="bairlal">
+              <h1 class="nova">The Echoes</h1>
+              <div class="jijig">
+                <img src="jijig.svg" alt="" />
+                <p class="loca">Groove Arena</p>
+              </div>
+            </div>
+            <div class="mainstage">
+              <p class="ms">Main Stage</p>
+            </div>
+          </div>
+          <div class="huvaari">
+            <div class="clock"><h2 id="tsag3">9:00 PM</h2></div>
+            <div class="bairlal">
+              <h1 class="nova">DJ Pulse</h1>
+              <div class="jijig">
+                <img src="jijig.svg" alt="" />
+                <p class="loca">Neon Dome</p>
+              </div>
+            </div>
+            <div class="mainstage">
+              <p class="ms">Main Stage</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="hero-section4">
+        <div id="OS">
+          <div id="os"><h1 class="meetthe">OUR SPONSORS</h1></div>
+          <div id="sp"><h1 class="meetthe2">STRATEGIC PARTNERS</h1></div>
+        </div>
+        <div id="lastbox">
+          <div id="sponsors">
+            <div id="ehnital">
+              <div class="Boxnud">
+                <img src="sonic.png" alt="" />
+                <p class="harmonyfinancial">SOUNDWAVE AUDIO</p>
+              </div>
+              <div class="Boxnud">
+                <img src="eclipse.png" alt="" />
+                <p class="harmonyfinancial">ECLIPSE STAGE</p>
+              </div>
+            </div>
+            <div id="hoyrdahtal">
+              <div class="Boxnud">
+                <img src="quantum.png" alt="" />
+                <p class="harmonyfinancial">QUANTUM CONNECTIVITY</p>
+              </div>
+              <div class="Boxnud">
+                <img src="harmony.png" alt="" />
+                <p class="harmonyfinancial">HARMONY FINANCIAL</p>
+              </div>
+            </div>
+          </div>
+          <div id="partners">
+            <div class="Boxnuud">
+              <img src="sync.svg" alt="" />
+              <p class="harmonyfinancial">SONIC SYNC MEDIA</p>
+            </div>
+            <div class="Boxnuud">
+              <img src="nat.png" alt="" />
+              <p class="harmonyfinancial">NEXUS AUDIO TECH</p>
+            </div>
+            <div class="Boxnuud">
+              <img src="streamflow.png" alt="" />
+              <p class="harmonyfinancial">STREAMFLOW LIVE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="endnav">
+        <div><h1 class="head">playtime</h1></div>
+        <div>
+          <p class="neon">2024 NEON BEAT FESTIVAL. ALL RIGHTS RESERVED.</p>
+        </div>
+        <div id="lineups">
+          <a href="">Privacy</a>
+          <a href="">Terms</a>
+          <a href="">Safety</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

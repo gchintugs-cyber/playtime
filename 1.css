@@ -1,0 +1,23 @@
+#pop {
+  background: rgba(183, 109, 255, 0.2);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(0px);
+}
+#edm {
+  background: rgba(5, 102, 217, 0.2);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(0px);
+}
+#indie {
+  background: rgba(247, 81, 161, 0.2);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(0px);
+}
+.Thetitle {
+  display: inline-block;
+  background: linear-gradient(to right, #ddb7ff, #adc6ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
